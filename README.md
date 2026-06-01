@@ -13,7 +13,7 @@ Dieses Repository enthält die Kernkomponenten der Webanwendung:
 
 * `buglist/` – Die Haupt-App mit der gesamten Geschäftslogik (Modelle, Views, Templates).
 * `nader_django/` – Die globalen Projekteinstellungen und das Haupt-Routing.
-* `static/` – Statische Dateien (wie z. B. CSS).
+* `static/` – Statische Dateien (z. B. eigene Projekt-Icons und Bilder).
 * `manage.py` – Das zentrale Kommandozeilen-Tool von Django.
 
-*Hinweis: Aus Best-Practice-Gründen wurden die lokale Datenbankdatei (`db.sqlite3`) sowie temporäre Cache-Ordner (`__pycache__`) bewusst nicht in dieses Repository hochgeladen.*
+*Hinweis: Aus Best-Practice-Gründen wurden die lokale Datenbankdatei (`db.sqlite3`), temporäre Cache-Ordner (`__pycache__`) sowie die standardmäßigen Frontend-Dateien des Django-Admins bewusst nicht in dieses Repository hochgeladen.*
